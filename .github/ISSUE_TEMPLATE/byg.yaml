@@ -24,14 +24,14 @@ body:
       description: Selection of team zone.
       options:
         - label: Frontend
-          required: true
+          required: false
         - label: Backend
-          required: true
+          required: false
         - label: Mobile
-          required: true
+          required: false
 
   - type: dropdown
-    id: browsers
+    id: Browsers
     attributes:
       label: What browsers are you seeing the problem on?
       multiple: true
